@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* media Querry Applay on max-width 1025px ////////////////////////////////////////////  */
+
+@media only screen and (max-width: 1025px) {
+    .heropage_content {
+        width: 600px;
+        height: 200px;
+        left: 00px;
+        top: 60px;
+        text-align: left;
+        padding: 20px;
+    }
+    #white-outline-btn-getStarted {
+        left: 0px;
+    }
+    .utilitybill-section {
+        width: 100%;
+        height: 400px;
+    }
+    .utilitybill-section-left {
+        width: 70%;
+        height: 100%;
+        background-position: center;
+    }
+    .utilitybill-section-right {
+        width: 30%;
+        height: 100%;
+    }
+    .utilitybill-section-right-bottom {
+        width: 100%;
+        height: 200px;
+        padding: 20px 0px;
+    }
+    .recivePayment-left {
+        width: 50%;
+        background-position: center;
+    }
+    .recivePayment-right {
+        width: 50%;
+    }
+    .recivePayment-right-bottom-content {
+        width: 100%;
+        height: 130px;
+        justify-content: space-evenly;
+    }
+    .recivePayment-right-bottom-content h4 {
+        font-size: 15px;
+    }
+    .product-section {
+        width: 100%;
+        min-height: 630px;
+    }
+    .product-section-bottom {
+        width: 100%;
+        height: 510px;
+    }
+    .product-section-bottom-left {
+        height: 500px;
+        background-position: center;
+    }
+    .product-section-bottom-right {
+        height: 500px;
+        background-position: center;
+    }
+    .product-section-image-content {
+        top: 300px;
+    }
+    .footerLeft-section {
+        width: 100%;
+    }
+    .footerright-section {
+        width: 40%;
+    }
+    .footerLeft-section-top-content {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        top: 50px;
+        left: 00px;
+        padding: 20px;
+        text-align: center;
+    }
+    .footerLeft-section-bottom {
+        padding: 20px 0px;
+    }
+    .footerLeft-section-bottom-content {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+    .footer-images {
+        width: 200px;
+        display: flex;
+    }
+}
+
+
+/* media Querry Applay on max-width 430px ////////////////////////////////////////////  */
+
+@media only screen and (max-width: 430px) {
+    .back {
+        background-position-x: center;
+    }
+    .overlay-back {
+        padding: 5px 5px 0px 0px;
+    }
+    .heropage_content {
+        width: 100%;
+        height: 300px;
+        left: 0px;
+        top: 20px;
+        text-align: left;
+        padding: 20px;
+    }
+    #white-outline-btn-getStarted {
+        left: 0px;
+    }
+    .utilitybill-section {
+        width: 100%;
+        height: 640px;
+        display: flex;
+        flex-direction: column;
+    }
+    .utilitybill-section-left {
+        width: 100%;
+        height: 300px;
+        background-position: center;
+    }
+    .utilitybill-section-right {
+        width: 100%;
+        height: 340px;
+    }
+    .utilitybill-section-right-bottom {
+        width: 100%;
+        height: 200px;
+        padding: 20px 0px;
+    }
+    .youtube-section {
+        width: 100%;
+        min-height: 600px;
+    }
+    .youtube-section-bottom {
+        width: 100%;
+        height: 220px;
+        margin-top: 20px;
+    }
+    .youtube-section-bottom-video {
+        width: 100%;
+    }
+    .recivePayment-section {
+        width: 100%;
+        min-height: 1150px;
+        display: flex;
+        flex-direction: column;
+    }
+    .recivePayment-left {
+        width: 100%;
+        height: 500px;
+        background-position: center;
+    }
+    .recivePayment-right {
+        width: 100%;
+        min-height: 400px;
+        padding: 20px;
+    }
+    .recivePayment-right-bottom-content {
+        width: 100%;
+        min-height: 400px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .recivePayment-right-bottom-content h4 {
+        margin-bottom: 40px;
+    }
+    .product-section {
+        width: 100%;
+        min-height: 1050px;
+        justify-content: space-evenly;
+    }
+    .product-section-top {
+        width: 100%;
+        height: 120px;
+        padding: 20px 0px;
+    }
+    .product-section-bottom {
+        width: 100%;
+        min-height: 900px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .product-section-bottom-left {
+        width: 100%;
+        height: 450px;
+        background-position: center;
+    }
+    .product-section-bottom-right {
+        width: 100%;
+        height: 450px;
+        background-position-x: center;
+    }
+    .product-section-image-content {
+        width: 100%;
+        height: 200px;
+        position: relative;
+        top: 200px;
+        padding: 0px 20px;
+    }
+    .footer {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footerLeft-section {
+        width: 100%;
+        height: 700px;
+    }
+    .footerLeft-section-top {
+        width: 100%;
+        min-height: 720px;
+    }
+    .footerLeft-section-top-content {
+        width: 100%;
+        min-height: 400px;
+        display: flex;
+        flex-direction: column;
+        top: 0px;
+        left: 0px;
+        text-align: center;
+    }
+    .footerLeft-section-bottom-content {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footerright-section {
+        width: 100%;
+    }
+    .footer-images {
+        margin: 0 auto;
+        width: 150px;
+    }
+}
